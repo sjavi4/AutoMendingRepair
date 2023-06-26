@@ -1,0 +1,9 @@
+name: AutoMendingRepair
+version: '${project.version}'
+main: me.autobot.AutoMendingRepair.AutoMendingRepair
+api-version: '1.20'
+commands:
+  automending:
+    description: "Toggle to consume self's experience to repair tools when damage"
+    aliases:
+      - am
