@@ -10,7 +10,7 @@ A spigot plugin that allow players to repair mending tools using player's experi
 
 ### Command
 
-/am to toggle on/off
+/automending (/am) to toggle on/off
 
 ## Tutorial
 Demo video
