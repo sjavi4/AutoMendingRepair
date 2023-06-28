@@ -18,6 +18,9 @@ public final class AutoMendingRepair extends JavaPlugin {
         getCommand("automending").setExecutor(new CommandManager());
         getServer().getPluginManager().registerEvents(new ItemDamage(),this);
     }
+    public void onDisable() {
+        ConfigManager.save();
+    }
 
     public static AutoMendingRepair getPlugin() {
         return plugin;

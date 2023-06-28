@@ -34,8 +34,6 @@ public class CommandManager implements CommandExecutor {
                     break;
             }
 
-            System.out.println(playerPref.getInt(uuid.toString()));
-
             ConfigManager.get().options().copyDefaults(true);
             ConfigManager.save();
 
